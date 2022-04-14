@@ -19,8 +19,8 @@ def register(dp: Optional[Dispatcher] = None) -> None:
         from .bot.filters import register_filters
         from .bot.handlers import register_handlers
         from .bot.middlewares import register_middlewares
-
         register_middlewares(dp)
+
         register_filters(dp)
         register_handlers(dp)
 

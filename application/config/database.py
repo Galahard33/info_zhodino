@@ -42,7 +42,6 @@ class DatabaseConfig:
 def _get_inited_tortoise_apps() -> Dict[str, Dict[str, Set[str]]]:
     """
     Retrieves all registered apps for Tortoise Config
-
     :return: Dict of Apps for Tortoise Config
     """
     from tortoise import Tortoise

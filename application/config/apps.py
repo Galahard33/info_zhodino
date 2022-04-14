@@ -3,11 +3,12 @@ from typing import Optional
 from aiogram import Dispatcher
 from tortoise import Tortoise
 
-from apps import core
+from apps import core, test_app
 
 # Register your apps here
 INSTALLED_APPS = [
     core,
+    test_app,
 ]
 
 

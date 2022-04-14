@@ -39,7 +39,6 @@ INSTALLED_APPS = [
     "django.contrib.sessions",
     "django.contrib.messages",
     "django.contrib.staticfiles",
-    # Register installed apps
     *[app.Config.name for app in apps.INSTALLED_APPS],
 ]
 

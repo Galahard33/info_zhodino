@@ -24,9 +24,9 @@ async def start(message: Message):
     )
 
     if is_created:
-        await message.answer("You have successfully registered in the bot!")
+        await message.answer("Это информационный бот города Жодино\nНа данный момент вы можете посмотреть афишу кинотеатра Юность и расписание городского транспорта и маршруток\nНовая информация будет добовляться по мере развития бота \n\nЧто бы зайти в меню отправьте /menu ")
     else:
-        await message.answer("You are already registered in the bot!")
+        await message.answer("Это информационный бот города Жодино\nНа данный момент вы можете посмотреть афишу кинотеатра Юность и расписание городского транспорта и маршруток\nНовая информация будет добовляться по мере развития бота \n\nЧто бы зайти в меню отправьте /menu ")
 
 
 async def send_my_id(message: Message):
